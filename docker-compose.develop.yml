@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  django:
+    build: django
+    volumes:
+      - ./django:/django
+    ports:
+      - '80:80'

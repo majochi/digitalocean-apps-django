@@ -1,0 +1,6 @@
+COMPOSE_FILE=docker-compose.yml:docker-compose.develop.yml
+POSTGRES_USER=django
+POSTGRES_PASSWORD=djangosecret
+DJANGO_SUPERUSER_USERNAME=empress
+DJANGO_SUPERUSER_PASSWORD=secret
+DJANGO_SUPERUSER_EMAIL=
